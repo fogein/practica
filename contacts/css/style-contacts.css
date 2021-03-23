@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+/* font-family: 'Montserrat',
+sans-serif; */
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Playfair Display',serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+h4,p{
+  margin: 0;
+}
+.header-logo{
+  height: 60px;
+}
+.navitagion{
+  padding: 0;
+}
+.header-tabs{
+  list-style: none;
+}
+.tabs{
+  font-size: 14px;
+  line-height: 27px;
+  color: #8C0F0F;
+  opacity: 0.8;
+}
+.tabs:hover{
+  opacity: 1;
+}
+.button{
+  border:none;
+  padding: 10px 20px;
+  background: #E86161;
+  border-radius: 38px;
+  color:#fff;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button:hover{
+  opacity: 1;
+}
+.enter{
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 31px;
+  color: #8C0F0F;
+  opacity: 0.8;
+}
+.enter:hover{
+  opacity: 1;
+}
+.main-info{
+  background: url('../img/bg-image.jpg') no-repeat bottom ;
+  
+}
+.title{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+}
+.subtitle{
+  padding-bottom: 50px;
+  color: rgba(255, 255, 255, 0.808);
+  margin: 0;
+  font-size: 30px;
+  line-height: 43px;
+}
+.description{
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+}
+.button-form{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  background:#000;
+  border-radius:38px;
+}
+.contacts{
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.247)),url('../img/bg-contacts.jpg')no-repeat top;
+  padding-bottom: 250px;
+}
+.title-cont{
+  color: #fff;
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.subtitle-cont{
+  color: #fff;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.place-cont{
+  color: #fff;
+  padding-bottom: 100px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.info-cont{
+  padding-bottom: 20px;
+  color: rgb(141, 8, 8);
+  font-weight: bold;
+  font-size: 25px;
+}
+.phone{
+  display: block;
+  padding-bottom: 15px;
+  font-weight: bold;
+  color:#fff;
+  font-size: 23px;
+}
+.email{
+  font-weight: bold;
+  color:#fff;
+  font-size: 23px;
+}
+.adress{
+  font-weight: bold;
+  color:#fff;
+  font-size: 23px;
+  
+}
+.footer {
+  background: url('../img/footer.png');
+  height: 100%;
+}
+
+.logo-footer {
+  height: 60px;
+}
+
+.footer-tabs {
+  list-style: none;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 15px;
+}
+
+.text-footer {
+  font-size: 17px;
+  color: #fff;
+}
